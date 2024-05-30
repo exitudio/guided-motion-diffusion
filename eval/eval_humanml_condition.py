@@ -363,8 +363,8 @@ def load_traj_model(data):
     # NOTE: Hard-coded trajectory model location
     traj_model_path = "./save/traj_unet_adazero_swxs_eps_abs_fp16_clipwd_224/model000062500.pt"
     args_traj = eval_args(model_path=traj_model_path)
-    args.batch_size = 32 # This must be 32! Don't change it! otherwise it will cause a bug in R precision calc!
-    args.num_frames = 196 # This must be 196!
+    # args.batch_size = 32 # This must be 32! Don't change it! otherwise it will cause a bug in R precision calc!
+    # args.num_frames = 196 # This must be 196!
 
     # print(args_traj.__dict__)
     # print(args_traj.arch)

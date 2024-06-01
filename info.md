@@ -1,3 +1,8 @@
+1. eval.ipynb: eval no cond
+2. eval_cond.ipynb: eval with 5 keyframes
+3. traj_model.ipynb:  same as eval_cond but try to make it work without running "eval" function
+
+
 Install ffmpeg from conda instead
 
 
